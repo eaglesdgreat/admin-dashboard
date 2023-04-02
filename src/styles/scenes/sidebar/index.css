@@ -1,0 +1,14 @@
+.profile__user {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pro__side--bar a:hover {
+  color: #868dfb !important;
+}
+
+.pro__side--bar, li, a.active {
+  color: #6870fa !important;
+}
