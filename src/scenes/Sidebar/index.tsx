@@ -8,15 +8,19 @@ import { ListItem } from "types";
 import Item from "scenes/Sidebar/components/Item";
 import { listItem } from "scenes/Sidebar/components/sidebarList";
 import "styles/scenes/sidebar/index.css";
+import { useLocation } from "react-router-dom";
 
 
 const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const { collapseSidebar } = useProSidebar();
+  const location = useLocation();
+  
+  const currentLocation = listItem.find((current: ListItem) => location.pathname === current.to) as ListItem;
 
   const [isCollapse, setIsCollapse] = useState(false);
-  const [selected, setSelected] = useState<string>("Dashboard")
+  const [selected, setSelected] = useState<string>(currentLocation.title)
 
   return (
     <Box height="100vh">

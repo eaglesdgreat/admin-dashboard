@@ -33,7 +33,7 @@ export const listItem: Array<ListItem> = [
   },
   {
     title: "Invoices Balances",
-    to: "/invoice",
+    to: "/invoices",
     icon: (<ReceiptOutlined />),
     headText: "Pages",
   },

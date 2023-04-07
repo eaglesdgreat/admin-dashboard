@@ -24,3 +24,12 @@ export interface IHeaderProps {
   title: string;
   subTitle: string;
 }
+
+export interface IFormProps {
+  firstName: string;
+  lastName: string;
+  email: string;
+  contact: string;
+  address1: string;
+  address2: string;
+}
