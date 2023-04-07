@@ -4,6 +4,7 @@ import Layout from "layout";
 import Team from "pages/Team";
 import Contacts from "pages/Contacts";
 import Invoices from "pages/Invoices"
+import Profile from "pages/Profile";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/invoices",
         element: <Invoices />,
+      },
+      {
+        path: "/form",
+        element: <Profile />,
       },
     ]
   },
