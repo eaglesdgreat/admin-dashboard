@@ -15,7 +15,7 @@ const initialValues: IFormProps = {
   address2: "",
 }
 
-const phoneRegExp = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im //i makes the expression case-insensitive and m performs multi-line searches
+const phoneRegExp = /^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/im //i makes the expression case-insensitive and m performs multi-line searches
 
 const userSchema = yup.object().shape({
   firstName: yup.string().required("required"),

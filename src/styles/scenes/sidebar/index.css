@@ -9,6 +9,6 @@
   color: #868dfb !important;
 }
 
-.pro__side--bar, li, a.active {
+.pro__side--bar, li > a.active {
   color: #6870fa !important;
 }
