@@ -6,6 +6,7 @@ import Contacts from "pages/Contacts";
 import Invoices from "pages/Invoices"
 import Profile from "pages/Profile";
 import Calendar from "pages/Calendar";
+import Faqs from "pages/Faqs"
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/calendar",
         element: <Calendar />,
+      },
+      {
+        path: "/faq",
+        element: <Faqs />,
       },
     ]
   },
