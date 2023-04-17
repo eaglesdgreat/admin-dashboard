@@ -37,3 +37,16 @@ export interface IFormProps {
 export interface IChartProps {
   isDashboard: boolean;
 }
+
+export interface IProgressCircleProps {
+  progress: number;
+  size?: number;
+}
+
+export interface IStatBoxProps {
+  title: string;
+  subtitle: string;
+  icon: ReactElement;
+  progress: number;
+  increase: string;
+}

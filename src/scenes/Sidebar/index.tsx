@@ -25,7 +25,7 @@ const Sidebar = () => {
   return (
     <Box height="100vh">
       <ProSidebar
-        style={{ height: "max-content" }}
+        style={{ height: "100%" }}
         backgroundColor={`${colors.primary[400]} !important`}
       >
         <Menu>

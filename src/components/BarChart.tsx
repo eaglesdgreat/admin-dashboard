@@ -36,7 +36,7 @@ const BarComponent: FC<IChartProps> = ({ isDashboard }) => {
         },
         legends: {
           text: {
-            color: colors.grey[100],
+            fill: colors.grey[100],
           },
         },
       }}
