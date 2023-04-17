@@ -4,9 +4,9 @@ html,
 body,
 #root,
 .app {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  font-family: 'Source Sans Pro' sans-serif;
+  font-family: Source Sans Pro,sans-serif;
 }
 
 .app {
@@ -16,6 +16,7 @@ body,
 
 .content {
   width: 100%;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
